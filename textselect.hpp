@@ -80,4 +80,7 @@ public:
 
     // Draws the text selection rectangle and handles user input.
     void update();
+
+    // If you render text without word wrapping you can disable this to increase performance.
+    bool enableWordWrap = true;
 };
